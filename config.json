@@ -1,0 +1,18 @@
+{
+    "mysql": {
+        "enabled": 0,
+        "host": "gekonas.serveriai.lt",
+        "user": "dasmlt_nitro",
+        "pass": "4w3afZnDUrbG6gup",
+        "database": "dasmlt_nitro"
+    },
+    "user": {
+        "bot_token": "ODE0NzY3Mjk1MjA5Mjc1NDA0.Yb4B2Q.PRlgS8JvkpB3C2tP_tzyKOnUAZ8",
+        "user_token": "ODEyNDA2NDExMDUzMTA1MjMz.Ydw8PA.zxSLl8b667rxgMJIQd5gQU-VQvc",
+        "admin_id": 812406411053105233
+    },
+    "logging": {
+        "enabled": 0,
+        "nitro_log_channel_id": 922318607545958504
+    }
+}
