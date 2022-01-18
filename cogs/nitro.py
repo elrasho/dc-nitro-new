@@ -22,13 +22,14 @@ class Test_Cog(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
         try:
-            DISCORD_NITRO = r'discord(?:\.gift)/?(?:[a-zA-Z0-9\-]{2,40})'
+            DISCORD_NITRO = r"(discord.com/gifts/|discordapp.com/gifts/|discord.gift/)([a-zA-Z0-9]+)"            
             regex = re.compile(DISCORD_NITRO)
             invites = regex.findall(str(message.content))
             inv = bool(invites)
             codes = []
             if inv:
-                invite = invites[0].replace("discord.gift/", "")
+                x = ["".join(x) for x in invites]
+                invite = ''.join(x).rsplit('/', 1)[-1]
                 # jeigu kodas buvo isbandytas 0 kartu
                 if invite not in codes:
                     codes.append(invite)
@@ -61,9 +62,6 @@ class Test_Cog(commands.Cog):
                         ats = y['message']
                     if ats:
                         print(f"{data} ┃ {invite} ┃ {ats}")
-                    #######
-                    # MYSQL DALIS
-                    #######
                     if kodas == 69:
                         scs = 1
                         spalva = 0x57d916

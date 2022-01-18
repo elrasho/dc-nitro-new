@@ -65,3 +65,5 @@ https://discord.com/api/v9/entitlements/gift-codes/tesasokaosk/redeem : b'{"mess
 https://discord.com/api/v9/entitlements/gift-codes/qowekqowke/redeem : b'{"message": "Unknown Gift Code", "code": 10038}'
 https://discord.com/api/v9/entitlements/gift-codes/niggeris/redeem : b'{"message": "Unknown Gift Code", "code": 10038}'
 https://discord.com/api/v9/entitlements/gift-codes/aaaa/redeem : b'{"message": "Unknown Gift Code", "code": 10038}'
+https://discord.com/api/v9/entitlements/gift-codes/auisjaisjx29/redeem : b'{"message": "Unknown Gift Code", "code": 10038}'
+https://discord.com/api/v9/entitlements/gift-codes/auisjaisjx29/redeem : b'{"message": "Unknown Gift Code", "code": 10038}'
